@@ -1,6 +1,6 @@
-Knapsack DQN Agent
+# Knapsack DQN Agent
 
-Description
+## Description
 
 This project implements a Deep Q-Network (DQN) agent to solve the 0/1 Knapsack problem. The agent is trained to select items to maximize the total value without exceeding the knapsack capacity.
 
@@ -20,7 +20,7 @@ The project provides:
 
 * Single-instance demonstrations for qualitative inspection
 
-Features
+## Features
 
 * Train a DQN agent on multiple random instances
 
@@ -32,7 +32,8 @@ Features
 
 * Modular codebase ready for Double DQN, Dueling DQN, Prioritized Replay, or multi-objective extensions
 
-Project Structure
+## Project Structure
+
 ```
 knapsack_dqn_project/
 │
@@ -45,15 +46,17 @@ knapsack_dqn_project/
 └─ main.py                  # Main script to train and evaluate the agent
 ```
 
-Installation
+## Installation
 
-Clone the repository:
+### Clone the repository:
+
 ```
-git clone 
+git clone https://github.com/gbencheikh/Knapsack-DQN-project
 cd knapsack-dqn
 ```
 
-Install dependencies:
+### Install dependencies:
+
 ```
 pip install requirements
 ```
