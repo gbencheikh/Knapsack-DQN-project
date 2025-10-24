@@ -81,7 +81,7 @@ During training, the total reward per episode is recorded and plotted:
 
 The trained agent is evaluated on multiple random instances, and the performance is compared with the DP optimal solution:
 
-![Evaluation Histogram](results/evaluation_hist.png)
+![Evaluation Histogram](results/knapsack_eval_hist.png)
 
 Next Steps / Improvements
 
